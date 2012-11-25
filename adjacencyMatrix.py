@@ -39,7 +39,7 @@ def main(n, fill, names = uppercase):
 
     for letter in names[:n-1]:
         print letter+" "*(len(fill)-1),
-    print letter
+    print names[n-1]
 
     body = ("&"+fill)*n
 
